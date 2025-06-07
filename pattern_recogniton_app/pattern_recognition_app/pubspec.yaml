@@ -1,0 +1,29 @@
+name: pattern_recognition_app
+description: "A mobile app for emotion recognition from speech"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.0-216.1.beta
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Audio recording
+  record: ^5.0.4
+  # File path management
+  path_provider: ^2.1.1
+  # HTTP requests
+  http: ^1.1.0
+  # Permissions
+  permission_handler: ^11.0.1
+  # File handling
+  dio: ^5.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
